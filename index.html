@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <header class="header">
         <div class="header-wrapper">
             <div class="header-logo">
-                <img src="img/logo.png" alt="logo-portafolio" height="60px">
+                <img src="img/logo.png" alt="logo-portafolio" height="60">
             </div>
         </div>
         <nav class="header-menu">
@@ -41,7 +41,7 @@
     <section class="cover">
         <div class="cover-wrapper">
             <div class="cover-photo-container">
-                <img src="img/profile.jpeg" alt="profile" height="200px" class="cover-photo">
+                <img src="img/profile.jpeg" alt="profile" height="200" class="cover-photo">
             </div>
             <div class="cover-text">
                 <h1 class="cover-title">GatDev</h1>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="works-item-description">
                     <header>
-                        <h1 class="work-item-title">Desarrollo Web</h1>
+                        <h2 class="work-item-title">Desarrollo Web</h2>
                     </header>
                     <p class="work-item-client">Para <a href="#" target="_blank">Nuestro cliente </a></p>
                     <div class="text-center">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="works-item-description">
                     <header>
-                        <h1 class="work-item-title">Desarrollo Móvil</h1>
+                        <h2 class="work-item-title">Desarrollo Móvil</h2>
                     </header>
                     <p class="work-item-client">Para <a href="#" target="_blank">Nuestro cliente </a></p>
                     <div class="text-center">
@@ -176,7 +176,7 @@
                 </div>
                 <div class="works-item-description">
                     <header>
-                        <h1 class="work-item-title">Gestión de proyectos</h1>
+                        <h2 class="work-item-title">Gestión de proyectos</h2>
                     </header>
                     <p class="work-item-client">Para <a href="#" target="_blank">Nuestro cliente </a></p>
                     <div class="text-center">
@@ -187,6 +187,60 @@
         </div>
     </section>
     <!--Portafolio-->
+    <!--Contacto-->
+    <section class="contact">
+        <header>
+            <h1 class="title-underline">
+                <span>Contacto</span>
+            </h1>
+        </header>
+        <form action="/messages.php" method="POST" class="contact-form">
+            <div class="contact-row">
+                <div class="contact-column left">
+                    <div>
+                        <label for="correo">Correo</label>
+                    </div>
+                    <div>
+                        <input id="correo" name="correo" type="email" class="contact-input-text" required>
+                    </div>
+                </div>
+                <div class="contact-column left">
+                    <div>
+                        <label for="usuario">Nombre</label>
+                    </div>
+                    <div>
+                        <input id="usuario" name="usuario" type="text" class="contact-input-text" required>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-row">
+                <div class="contact-column">
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <textarea name="mensaje" id="mensaje" rows="3" required></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <!--Contacto-->
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <p class="footer-text">
+                Hecho por 👾 <a href="https://github.com/GiovanniGatdev" target="_blank" class="link">Gatdev</a>
+                <br>Curso Udemy
+            </p>
+            <p>
+                ©GatDev
+            </p>
+        </div>
+
+    </footer>
+    <!--Footer-->
 </body>
 
 </html>
