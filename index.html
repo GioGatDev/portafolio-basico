@@ -21,16 +21,16 @@
             <nav class="header-menu">
                 <ul class="header-menu-wrapper">
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">Sobre mi</a>
+                        <a href="#about" class="header-menu-link">Sobre mi</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">Habilidades</a>
+                        <a href="#skills" class="header-menu-link">Habilidades</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">Portafolio</a>
+                        <a href="#portafolio" class="header-menu-link">Portafolio</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">Contacto</a>
+                        <a href="#contacto" class="header-menu-link">Contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -51,7 +51,7 @@
     </section>
     <!--Portada-->
     <!--Sección Información-->
-    <section class="about">
+    <section id="about" class="about">
         <header>
             <h1 class="title-underline">
                 <span>Sobre Mi</span>
@@ -69,7 +69,7 @@
     <!--Sección Información-->
     <!--Habilidades-->
     <section class="skills">
-        <header>
+        <header id="skills">
             <h1 class="title-underline">
                 <span>Habilidades</span>
             </h1>
@@ -164,7 +164,7 @@
     <!--Habilidades-->
     <!--Portafolio-->
     <section class="portafolio">
-        <header>
+        <header id="portafolio">
             <h1 class="title-underline">
                 <span>Portafolio</span>
             </h1>
@@ -245,7 +245,7 @@
     <!--Portafolio-->
     <!--Contacto-->
     <section class="contact">
-        <header>
+        <header id="contacto">
             <h1 class="title-underline">
                 <span>Contacto</span>
             </h1>
@@ -260,7 +260,7 @@
                         <input id="correo" name="correo" type="email" class="contact-input-text" required>
                     </div>
                 </div>
-                <div class="contact-column left">
+                <div class="contact-column right">
                     <div>
                         <label for="usuario">Nombre</label>
                     </div>
@@ -270,7 +270,7 @@
                 </div>
             </div>
             <div class="contact-row">
-                <div class="contact-column">
+                <div class="contact-column --width100">
                     <div>
                         <label for="mensaje">Mensaje</label>
                     </div>
@@ -278,7 +278,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="btn-blue">
             </div>
         </form>
     </section>
@@ -287,11 +287,12 @@
     <footer class="footer">
         <div class="footer-wrapper">
             <p class="footer-text">
-                Hecho por 👾 <a href="https://github.com/GiovanniGatdev" target="_blank" class="link">Gatdev</a>
-                <br>Curso Udemy
+                Hecho por 👾<a href="https://github.com/GiovanniGatdev" target="_blank" class="link">Gatdev<img src="img/github.png" alt="Github" class="github"></a>
+
+                <br> <a href="https://www.udemy.com/como-crear-una-pagina-web-introduccion-a-html5-y-css3/" target="_blank">Curso Udemy</a> de Jesus Alberto Lopez Villatoro
             </p>
             <p>
-                ©GatDev
+                ©GatDev 2018
             </p>
         </div>
 
